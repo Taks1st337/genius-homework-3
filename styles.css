@@ -133,9 +133,9 @@ p {
   letter-spacing: 0;
   margin-bottom: 14px;
   transition:
-    color 0.3s,
-    background-color 0.3s,
-    border 0.3s;
+    color 0.2s,
+    background-color 0.2s,
+    border 0.2s;
 }
 
 .button:hover {
@@ -181,7 +181,7 @@ header {
 
 .header-icon {
   fill: var(--primary-color-darkblue);
-  transition: transform 0.3s;
+  transition: transform 0.2s;
 }
 
 .header-icon:hover {
@@ -378,7 +378,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.3s;
+  transition: transform 0.2s;
 }
 
 .procedure-element:hover {
@@ -407,9 +407,9 @@ header {
   border: 1px solid var(--primary-color-darkblue);
   fill: var(--primary-color-darkblue);
   transition:
-    border 0.3s,
-    fill 0.3s,
-    background-color 0.3s;
+    border 0.2s,
+    fill 0.2s,
+    background-color 0.2s;
 }
 
 .carousel-button:hover {
@@ -515,7 +515,7 @@ header {
 
 .footer-icon {
   fill: var(--primary-color-white);
-  transition: transform 0.3s;
+  transition: transform 0.2s;
 }
 
 .footer-icon:hover {
@@ -565,8 +565,8 @@ header {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   transition:
-    opacity 0.3s,
-    visibility 0.3s;
+    opacity 0.2s,
+    visibility 0.2s;
 }
 
 .backdrop.is-hidden {

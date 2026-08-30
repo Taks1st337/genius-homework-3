@@ -246,6 +246,8 @@
                     id="user-name"
                     name="user-name"
                     placeholder="Ваше ім'я та прізвище"
+                    required
+                    pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+$"
                   />
                 </div>
 
@@ -259,6 +261,8 @@
                     id="user-tel"
                     name="user-tel"
                     placeholder="Ваш номер телефону"
+                    required
+                    pattern="\+380[0-9]{9}"
                   />
                 </div>
 
@@ -272,12 +276,14 @@
                     id="user-email"
                     name="user-email"
                     placeholder="Ваша електронна пошта"
+                    required
                   />
                 </div>
+                <button class="form-button button" type="submit">
+                  Записатися безкоштовно
+                </button>
               </form>
-              <button class="form-button button" type="submit">
-                Записатися безкоштовно
-              </button>
+
               <p class="form-terms">
                 Натискаючи на кнопку я погоджуюсь
                 <a class="form-terms-link" href="#"
@@ -286,7 +292,6 @@
               </p>
             </div>
           </div>
-          <!-- форма для запису -->
         </div>
       </section>
     </main>
@@ -384,7 +389,7 @@
           Запишіться <span>безкоштовно</span> <br />
           та отримайте подарунок
         </p>
-        <form name="contact-form" autocomplete="off" novalidate>
+        <form name="contact-form" autocomplete="off">
           <div class="form-field">
             <label class="form-label visually-hidden" for="user-name">
               Ваше ім'я та прізвище
@@ -395,6 +400,8 @@
               id="user-name"
               name="user-name"
               placeholder="Ваше ім'я та прізвище"
+              required
+              pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+$"
             />
           </div>
 
@@ -408,6 +415,8 @@
               id="user-tel"
               name="user-tel"
               placeholder="Ваш номер телефону"
+              required
+              pattern="\+380[0-9]{9}"
             />
           </div>
 
@@ -421,12 +430,14 @@
               id="user-email"
               name="user-email"
               placeholder="Ваша електронна пошта"
+              required
             />
           </div>
+
+          <button class="form-button button" type="submit">
+            Записатися безкоштовно
+          </button>
         </form>
-        <button class="form-button button" type="submit">
-          Записатися безкоштовно
-        </button>
         <p class="form-terms">
           Натискаючи на кнопку я погоджуюсь
           <a class="form-terms-link" href="#">з політикою конфіденційності</a>
