@@ -1,0 +1,37 @@
+.procedure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.procedure-menu p {
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.procedure-menu {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.procedure-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.procedure-element:hover {
+  transform: scale(1.05);
+}
+
+.procedure-element img {
+  border-radius: 4px 120px;
+}
+
+.procedure-menu-title {
+  margin-bottom: 48px;
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+.hero-section {
+  position: relative;
+}
+
+.hero-image-background {
+  position: absolute;
+  top: -106px;
+
+  z-index: -99;
+}

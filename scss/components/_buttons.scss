@@ -1,0 +1,33 @@
+.button {
+  color: var(--primary-color-white);
+  background-color: var(--primary-color-blue);
+  border: transparent;
+  border-radius: 32px;
+  width: 219px;
+  height: 53px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: var(--font-family-text);
+  font-weight: 600;
+  letter-spacing: 0;
+  margin-bottom: 14px;
+  transition:
+    color 0.2s,
+    background-color 0.2s,
+    border 0.2s;
+}
+
+.button:hover {
+  color: var(--primary-color-darkblue);
+  background-color: transparent;
+  border: 2px solid var(--primary-color-blue);
+  border-radius: 32px;
+}
+
+.button-description {
+  max-width: 238px;
+  color: var(--secondary--color-darkgrey);
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
