@@ -1,0 +1,31 @@
+.contact-map {
+  border-radius: 32px;
+}
+
+.contact-section-title {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.contact-section {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+
+  &__form-field {
+    padding: 48px 0;
+    flex-basis: 423px;
+    background-color: var(--primary-color-darkblue);
+    border-radius: 32px;
+    flex-shrink: 1;
+  }
+
+  & .form-field {
+    margin-bottom: 16px;
+  }
+
+  & .form-input {
+    padding: 16px 32px;
+  }
+}

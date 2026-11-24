@@ -1,0 +1,50 @@
+.advantages {
+  position: relative;
+  @include center;
+  flex-basis: 1060px;
+  flex-direction: column;
+
+  &__title {
+    margin-bottom: 48px;
+    text-align: center;
+    max-width: 432px;
+    width: 100%;
+  }
+
+  &__gradient-background {
+    position: absolute;
+    top: -200px;
+    z-index: -1;
+  }
+}
+
+.advantages-menu {
+  @include center;
+  gap: 56px;
+  flex-wrap: wrap;
+
+  &__element {
+    background-color: var(--primary-color-white);
+    flex-basis: 316px;
+    @include center;
+    flex-direction: column;
+    border-radius: 32px;
+    gap: 10px;
+    padding-top: 30px;
+    transition: transform 0.3s;
+
+    & p {
+      color: var(--secondary-color-black);
+      text-align: center;
+      padding: 0px 32px 24px 32px;
+    }
+  }
+
+  &__element:hover {
+    transform: scale(1.05);
+  }
+
+  &__icon {
+    fill: var(--primary-color-blue);
+  }
+}

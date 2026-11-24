@@ -1,0 +1,31 @@
+.hero-section {
+  position: relative;
+
+  &__title {
+    color: var(--primary-color-darkblue);
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+
+  &__title span {
+    font-family: var(--font-family-heading);
+    font-size: 140px;
+    line-height: 0.8;
+    font-weight: 700;
+  }
+
+  &__button-description {
+    max-width: 238px;
+    color: var(--secondary--color-darkgrey);
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  &__image-background {
+    position: absolute;
+    top: -106px;
+    z-index: -99;
+  }
+}

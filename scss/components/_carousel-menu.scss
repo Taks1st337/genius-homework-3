@@ -1,7 +1,5 @@
 .carousel-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include center;
   flex-shrink: 0;
   padding: 0;
   width: 44px;

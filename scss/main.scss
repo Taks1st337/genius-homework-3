@@ -1,21 +1,22 @@
 @import './utils/variables';
 @import './utils/utils';
+@import './utils/texts';
+@import './utils/mixin';
+@import './utils/visually-hidden';
 
 @import './base';
 
-@import './components/hero-title';
 @import './components/logotype';
 
-@import './components/hero-section';
-@import './components/information-section';
-@import './components/advantage-section';
-@import './components/procedure-section';
-@import './components/contact-section';
-@import './components/footer-section';
+@import './layouts/hero-section';
+@import './layouts/information-section';
+@import './layouts/advantage-section';
+@import './layouts/procedure-section';
+@import './layouts/contact-section';
+@import './layouts/footer-section';
+@import './layouts/header';
 
 @import './components/buttons';
-@import './components/links';
-@import './components/header';
 @import './components/carousel-menu';
 
 @import './components/modal';
